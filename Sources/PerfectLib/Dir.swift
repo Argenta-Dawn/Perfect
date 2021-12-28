@@ -19,6 +19,7 @@
 
 #if os(Linux)
 import LinuxBridge
+import Glibc
 #else
 import Darwin
 #endif

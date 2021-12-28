@@ -19,6 +19,7 @@
 
 #if os(Linux)
 import LinuxBridge
+import Glibc
 // !FIX! these are obviously sketchy
 // I hope SwiftGlibc to eventually include these
 // Otherwise, export them from LinuxBridge

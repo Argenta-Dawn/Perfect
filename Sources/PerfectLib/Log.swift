@@ -18,8 +18,8 @@
 //
 
 #if os(Linux)
-	import SwiftGlibc
 	import LinuxBridge
+	import Glibc
 #else
 	import Darwin
 	import os
